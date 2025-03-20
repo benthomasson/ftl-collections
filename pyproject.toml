@@ -1,0 +1,10 @@
+[project]
+name = "ftl_collections"
+version = "0.1.7"
+
+[tool.setuptools]
+packages = ["ansible_collections"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
