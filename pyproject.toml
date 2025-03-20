@@ -2,8 +2,10 @@
 name = "ftl_collections"
 version = "0.1.7"
 
-[tool.setuptools.packages]
-find = {}
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ansible_collections*"]
+namespaces = false
 
 [build-system]
 requires = ["setuptools"]
